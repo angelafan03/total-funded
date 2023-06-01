@@ -8,8 +8,8 @@
     "text": ""
   },
   "text": {
-    "more": "How to read the network graph:\n\n- The size of each node/label and the thickness of the lines reflect how many applications that host country has sent out\n- Each node and line is color coded: Purple/Africa, Green/Americas, Blue/Asia, Orange/Europe, Teal/Middle East, Pink/Oceania\n- Each line has an arrow to show the host country pointing to the archival country, and lines are color coded by host country\n- Nodes with no lines going in or out represent countries that are their own host and archival country\n",
-    "intro": "Total Funded: 123\n\nBy Host Region:\n\nAsia: 18\nAfrica: 20\nAmericas: 60\nMiddle East: 4\nEurope: 20\nOceania: 1\nFunded applications where host and archival country are the same: 78\n\nFunded applications where host and archival country are different: 45",
+    "more": "How to read the network graph:<br>\n\n- The size of each node/label and the thickness of the lines reflect how many applications that host country has sent out<br>\n- Each node and line is color coded: Purple/Africa, Green/Americas, Blue/Asia, Orange/Europe, Teal/Middle East, Pink/Oceania\n<br>- Each line has an arrow to show the host country pointing to the archival country, and lines are color coded by host country\n<br>- Nodes with no lines going in or out represent countries that are their own host and archival country\n",
+    "intro": "Total Funded: 123<br>\n\nBy Host Region:<br>\n\nAsia: 18<br>\nAfrica: 20<br>\nAmericas: 60<br>\nMiddle East: 4<br>\nEurope: 20<br>\nOceania: 1<br>\nFunded applications where host and archival country are the same: 78<br>\n\nFunded applications where host and archival country are different: 45",
     "title": ""
   },
   "legend": {
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 1,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
-      "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxEdgeSize": 5,
+      "minEdgeSize": 2,
+      "minNodeSize": 3,
+      "maxNodeSize": 20
     },
     "mouseProperties": {
       "maxRatio": 20,
